@@ -1,0 +1,57 @@
+
+/* Container do formulário */
+.form-container {
+    background-color: rgba(255, 255, 255, .08);
+    padding: 20px 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 9px 9px 9px 9px;
+}
+
+/* Título do formulário */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Estilos dos rótulos e campos de entrada */
+.form-container label {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 0 20px 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+}
+
+/* Estilos do botão */
+.form-container button {
+    width: calc(100% - 40px);
+    padding: 10px;
+    background-color: #3b1397;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 20px 20px 0 20px;
+}
+
+.form-container button:hover {
+    background-color: #440cc7;
+}
